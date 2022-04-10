@@ -1,14 +1,14 @@
 let cond1 = true;
 if (cond1) {
-    console.log('This message will print!'); 
+  console.log('This message will print!');
 }
 // Prints: This message will print!
 
 let cond2 = false;
 if (cond2) {
- console.log('The code in this block will not run.');
+  console.log('The code in this block will not run.');
 } else {
-console.log('But the code in this block will!');
+  console.log('But the code in this block will!');
 }
 // Prints: But the code in this block will!
 
@@ -21,9 +21,9 @@ not (!)
 let stopLight = 'green';
 let pedestrians = '0';
 if (stopLight === 'green' && pedestrians === 0) {
-    console.log('Go!');
+  console.log('Go!');
 } else {
-    console.log('Stop');
+  console.log('Stop');
 }
 
 let mood = 'sleepy';
@@ -37,17 +37,17 @@ if (mood === 'sleepy' || tirednessLevel > 8) {
 // Truthy value
 let myVariable = 'I Exist!';
 if (myVariable) {
-   console.log(myVariable)
+  console.log(myVariable)
 } else {
-   console.log('The variable does not exist.')
+  console.log('The variable does not exist.')
 }
 
 // Falsy value
 let numberOfApples = 0;
-if (numberOfApples){
-   console.log('Let us eat apples!');
+if (numberOfApples) {
+  console.log('Let us eat apples!');
 } else {
-   console.log('No apples left!');
+  console.log('No apples left!');
 }
 // Prints 'No apples left!'
 
@@ -73,7 +73,7 @@ if (stopLight === 'red') {
 
 // Switch keyword
 let groceryItem = 'papaya';
- 
+
 switch (groceryItem) {
   case 'tomato':
     console.log('Tomatoes are $0.49');
@@ -89,4 +89,3 @@ switch (groceryItem) {
     break;
 }
 // Prints 'Papayas are $1.29'
-
